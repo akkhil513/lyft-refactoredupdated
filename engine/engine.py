@@ -7,6 +7,6 @@ class Engine:
         Determine whether the engine needs to be serviced.
         This method should be overridden by subclasses with specific logic.
         """
-        raise NotImplementedError("This method should be overridden by subclass")
+        pass
 
 

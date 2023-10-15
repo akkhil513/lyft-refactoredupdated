@@ -81,7 +81,7 @@ class TestGlissade(unittest.TestCase):
         last_service_mileage = 0
 
         car = Glissade(last_service_date, current_mileage, last_service_mileage)
-        self.assertTrue(car.engine_should_be_serviced())
+        self.assertTrue(car.engine_should_be_serviced)
 
     def test_engine_should_not_be_serviced(self):
         last_service_date = datetime.today().date()
@@ -89,7 +89,7 @@ class TestGlissade(unittest.TestCase):
         last_service_mileage = 0
 
         car = Glissade(last_service_date, current_mileage, last_service_mileage)
-        self.assertFalse(car.engine_should_be_serviced())
+        self.assertFalse(car.engine_should_be_serviced)
 
 
 class TestPalindrome(unittest.TestCase):
@@ -149,7 +149,7 @@ class TestRorschach(unittest.TestCase):
         last_service_mileage = 0
 
         car = Rorschach(last_service_date, current_mileage, last_service_mileage)
-        self.assertTrue(car.engine_should_be_serviced())
+        self.assertTrue(car.engine_should_be_serviced)
 
     def test_engine_should_not_be_serviced(self):
         last_service_date = datetime.today().date()
@@ -157,7 +157,7 @@ class TestRorschach(unittest.TestCase):
         last_service_mileage = 0
 
         car = Rorschach(last_service_date, current_mileage, last_service_mileage)
-        self.assertFalse(car.engine_should_be_serviced())
+        self.assertFalse(car.engine_should_be_serviced)
 
 
 class TestThovex(unittest.TestCase):

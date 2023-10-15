@@ -1,0 +1,2 @@
+class Tires:
+    pass
